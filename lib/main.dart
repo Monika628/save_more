@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:save_more/auth/onboarding_setup_pin_1.dart';
 import 'package:save_more/screen/launch_screen.dart';
 
 void main() {
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: LaunchScreen(),
+      home: OnboardingSetupPin1(),
     );
   }
 }
